@@ -12,7 +12,7 @@ describe('Home', () => {
     // });
 
     it('Volume should be 75', async () => {
-        await HomePage.open()
+        await HomePage.open();
         await browser.execute('document.getElementById("volumeRange").value = 75');
         (await $('#volumeRange')).click();
         const val = await $('#volumeRange').getValue();
