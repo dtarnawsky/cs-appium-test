@@ -1,5 +1,5 @@
 import { expect } from '@wdio/globals'
-import HomePage from '../pageobjects/home.page'
+import HomePage from './../pageobjects/home.page'
 
 
 
